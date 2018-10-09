@@ -58,7 +58,7 @@ header, main, nav, footer, figure, figcaption, aside, section, article { display
     main { padding-top: 0.1em; padding-bottom: 0.1em; padding-left: 1em; padding-right: 1em; font-size: 90%; }
     h1 { font-size: 2em; }
     nav { padding: 0; text-decoration: none;}
-    nav li { display: block; margin: 0; border-bottom: 2px solid #330000; text-decoration: none;}
+    nav li { display: block; margin: 0; border-bottom: none; text-decoration: none;}
     nav a { display: block; text-decoration: none;}
     #mobile { display: inline; }
     #desktop { display: none; }
