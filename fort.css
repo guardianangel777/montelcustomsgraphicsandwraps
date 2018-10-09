@@ -143,12 +143,14 @@ figure {    position: absolute;
 			text-align: center; 
             opacity: .25;
 }
-table { border-collapse: collapse; border: 5px solid #36454f; }
+table { border-collapse: collapse; border: 2px solid #36454f; }
 td, th { padding: 0.5em; border: 5px solid #36454f; font-family: 'Cormorant Upright';font-size: 22px; font-weight: bold;}
 td { text-align: center; }
 .text { text-align: left; }
 tr:nth-of-type(odd) { background-color:  #ccdaf7; background-image: radial-gradient( #ccdaf7, #c9bbd4)}
 tr:nth-of-type(even) {  background-color: #ccdaf7; background-color: #3181c0; background-image: radial-gradient(#ccdaf7, #a5a3cb) }
+
+
 label { float: left; display: block; text-align: right; width: 120px; }
 input { display: block; margin-bottom: 20px; }
 input[type="submit"] { margin-left: 130px; }
@@ -165,3 +167,5 @@ p {font-family: 'Cormorant Upright';font-size: 22px; font-weight: bold;}
 a:link { text-decoration: none;}
 
 #minigallery { display: none;}
+
+
