@@ -63,6 +63,7 @@ header, main, nav, footer, figure, figcaption, aside, section, article { display
     #mobile { display: inline; }
     #desktop { display: none; }
 	 body {background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #b0aebb); 
+		 
          }
 	
     }
@@ -153,5 +154,5 @@ a:link { text-decoration: none;}
 
 #minigallery {display: inline; }
 	
-a:link { color: darkorchid;}
-a:hover { color: purple;}
+a:link { color: #8d59be;}
+a:hover { color: #be45cf;}
