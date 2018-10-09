@@ -21,6 +21,7 @@ h4 { color : #668ca5;
     text-shadow: 1px 1px 1px navy; }
 
 
+
 .fortnite { color : #888b9c;
     font-weight: bold; text-shadow: 1px 1px 1px navy; font-size: 125%; font-family: 'Kavoon';font-size: 25px; letter-spacing: 2px;}
 main ul { list-style-image: url(marker.gif); }
@@ -205,5 +206,12 @@ only screen and (max-width: 760px),
 		left: 6px;
 		width: 45%; 
 		padding-right: 10px; 
-		white-space: nowrap;
+		white-space: nowrap;}
+	
+	.tabletini { color: blueviolet; }
+	
 	}
+
+a:link { color: #8d52d0;}
+a:hover { color: #c675ca;}
+
