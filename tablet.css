@@ -1,6 +1,6 @@
 #mobile { display: none; }
 
-body {  background-image: url(waves.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; 
+body {  background-image: url(waves.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;  
     color : #1254aa;
     font-family: Arial, Helvetica, sans-serif; }
 main { padding-top: 1px; padding-right: 20px; padding-bottom: 20px; padding-left: 30px; display: block; background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #b0aebb); 
@@ -41,7 +41,7 @@ padding-top: 15%; padding-bottom: 15%; padding-left: 15%; padding-right: 15%; bo
 header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
 @media only screen and (max-width: 64em) 
 { 
-    body { margin: 0; background-color: #FFFFFF; }
+    body { margin: 0;  }
     #wrapper { min-width: 0; width: auto; box-shadow: none; border: none; }
     header { padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 0; height: auto; }
     h1 { letter-spacing: 0.1em; }
@@ -49,6 +49,7 @@ header, main, nav, footer, figure, figcaption, aside, section, article { display
     nav { float: none; width: auto; text-align: center; padding: 0.5em; }
     nav li { display: inline; padding-top: 0.25em; padding-bottom: 0.25em; padding-left: 0.75em; padding-right: 0.75em; }
     footer { margin: 0; } 
+	
 	
 	
 }
@@ -61,6 +62,8 @@ header, main, nav, footer, figure, figcaption, aside, section, article { display
     nav a { display: block; text-decoration: none;}
     #mobile { display: inline; }
     #desktop { display: none; }
+	 body {background-color:  #ccdaf7; background-image: radial-gradient( #ccdaf7, #c9bbd4)}; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; 
+	
     }
 .tabletini { color: blueviolet;}
 
@@ -150,4 +153,4 @@ a:link { text-decoration: none;}
 #minigallery {display: inline; }
 	
 a:link { color: darkorchid;}
-a:hover { color:mediumpurple;}
+a:hover { color: purple;}
