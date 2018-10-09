@@ -1,6 +1,8 @@
 #mobile { display: none; }
+a:link { color: darkorchid;}
+a:hover { color:mediumpurple;}
 
-body {  background-image: url(montel%20background.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; 
+body {  background-image: url(waves.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; 
     color : #1254aa;
     font-family: Arial, Helvetica, sans-serif; }
 main { padding-top: 1px; padding-right: 20px; padding-bottom: 20px; padding-left: 30px; display: block; background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #b0aebb); 
@@ -65,6 +67,7 @@ header, main, nav, footer, figure, figcaption, aside, section, article { display
     float: left;
     width: 33.33%;
     padding: 5px;
+
 }
 .row::after {
     content: "";
@@ -207,3 +210,5 @@ only screen and (max-width: 760px),
 		padding-right: 10px; 
 		white-space: nowrap;
 	}
+
+	
