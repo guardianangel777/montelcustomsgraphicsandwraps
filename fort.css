@@ -3,7 +3,7 @@
 body {  background-image: url(montel%20background.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; 
     color : #1254aa;
     font-family: Arial, Helvetica, sans-serif; }
-main { padding-top: 1px; padding-right: 20px; padding-bottom: 20px; padding-left: 30px; display: block; background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #91d6f7); 
+main { padding-top: 1px; padding-right: 20px; padding-bottom: 20px; padding-left: 30px; display: block; background-color: #eacde7; background-image: radial-gradient(#eacde7, #91d6f7); 
          }
 #wrapper { 
 	margin: auto;  width: 80%; min-width: 960px; max-width: 2048px; 
@@ -17,13 +17,13 @@ h1 {background-color: #c9bbae; background-image:url(montel%20header.jpg); backgr
     font-size: 3em; letter-spacing: 0.25em; text-shadow: 2px 2px 2px black; background-size: 100% 100%; }
 
 h4 { color : #668ca5;
-    font-family: Georgia, "Times New Roman", sans-serif; font-size: 200%;
+    font-family: Georgia, "Times New Roman", sans-serif; font-size: 250%;
     text-shadow: 1px 1px 1px navy; }
 
 
 
 .fortnite { color : #888b9c;
-    font-weight: bold; text-shadow: 1px 1px 1px navy; font-size: 125%; font-family: 'Kavoon';font-size: 25px; letter-spacing: 2px;}
+    font-weight: bold; text-shadow: 1px 1px 1px navy; font-size: 125%; font-family: 'Bungee'; letter-spacing: 2px;}
 main ul { list-style-image: url(marker.gif); }
 footer { font-size: 75%; 
     font-style: italic;
@@ -163,7 +163,7 @@ input[type="submit"] { margin-left: 130px; }
     
 }
 h4 {
-    font-family: 'Bungee Inline';font-size: 25px;
+    font-family: 'Bungee Inline';
 }
 p {font-family: 'Cormorant Upright';font-size: 22px; font-weight: bold;}
 a:link { text-decoration: none;}
