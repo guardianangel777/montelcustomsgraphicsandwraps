@@ -60,9 +60,11 @@ header, main, nav, footer, figure, figcaption, aside, section, article { display
     nav li { display: block; margin: 0; border-bottom: 2px solid #330000; text-decoration: none;}
     nav a { display: block; text-decoration: none;}
     #mobile { display: inline; }
-    #desktop { display: none; }
+    #desktop { display: none;     }
 	
-    }
+	
+
+	
 .column {
     float: left;
     width: 33.33%;
