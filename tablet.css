@@ -1,6 +1,6 @@
 #mobile { display: none; }
 
-body {  background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #b0aebb); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;  
+body {  background-color: #d5bbd2; background-image: radial-gradient(#d5bbd2, #a78db6); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;  
     color : #1254aa;
     font-family: Arial, Helvetica, sans-serif; }
 main { padding-top: 1px; padding-right: 20px; padding-bottom: 20px; padding-left: 30px; display: block; background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #b0aebb); 
@@ -49,7 +49,7 @@ header, main, nav, footer, figure, figcaption, aside, section, article { display
     nav { float: none; width: auto; text-align: center; padding: 0.5em; }
     nav li { display: inline; padding-top: 0.25em; padding-bottom: 0.25em; padding-left: 0.75em; padding-right: 0.75em; }
     footer { margin: 0; } 
-	body {background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #b0aebb); 
+	background-color: {  background-color: #d5bbd2; background-image: radial-gradient(#d5bbd2, #a78db6);} 
 	
 	
 	
@@ -63,7 +63,7 @@ header, main, nav, footer, figure, figcaption, aside, section, article { display
     nav a { display: block; text-decoration: none;}
     #mobile { display: inline; }
     #desktop { display: none; }
-	 body {background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #b0aebb); 
+	 body {  background-color: #d5bbd2; background-image: radial-gradient(#d5bbd2, #a78db6);
 		 
          }
 	
