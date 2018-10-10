@@ -9,20 +9,20 @@ main { padding-top: 1px; padding-right: 20px; padding-bottom: 20px; padding-left
 	margin: auto;  width: 80%; min-width: 960px; max-width: 2048px; 
     box-shadow: 5px 5px 5px black;
     border: 1px solid #000033; }
-h1 {background-color: #c9bbae; background-image:url(montel%20header.jpg); background-size: contain; 
+h1 { background-image:url(montel%20header.jpg); background-size: contain; 
     color : #FFFFFF; margin-bottom: 0;
-    height: 120px; text-align: center; padding-top: 30px;
+    height: 150px; text-align: center; padding-top: 30px;
     margin-top: 0; 
     font-family: abel; 
-    font-size: 3em; letter-spacing: 0.25em; text-shadow: 2px 2px 2px black; background-size: 100% 100%; }
+    font-size: 3em; letter-spacing: 0.25em; text-shadow: 2px 2px 2px black; background-size: 100% 100%; margin-top: 10%;}
 
 h4 { color : #668ca5;
-    font-family: Georgia, "Times New Roman", sans-serif; font-size: 200%;
-    text-shadow: 1px 1px 1px navy; }
+    font-family: Georgia, "Times New Roman", sans-serif; font-size: 5vw;
+    text-shadow: 1px 1px 1px navy; font-family: 'Bungee Inline';}
 
 
 .fortnite { color : #888b9c;
-    font-weight: bold; text-shadow: 1px 1px 1px navy; font-size: 125%; font-family: 'Kavoon';font-size: 25px; letter-spacing: 2px;}
+    font-weight: bold; text-shadow: 1px 1px 1px navy; font-size: 125%; font-family: 'Kavoon';font-size: 4vw; letter-spacing: 2px;}
 main ul { list-style-image: url(marker.gif); }
 footer { font-size: 90%; 
     font-style: italic;
@@ -39,35 +39,56 @@ text-align: center;
 padding-top: 15%; padding-bottom: 15%; padding-left: 15%; padding-right: 15%; border: 10px solid #36454f;}
 * { box-sizing: border-box; }
 header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+
+
 @media only screen and (max-width: 64em) 
 { 
     body { margin: 0;  }
     #wrapper { min-width: 0; width: auto; box-shadow: none; border: none; }
     header { padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 0; height: auto; }
-    h1 { letter-spacing: 0.1em; }
+    h1 { letter-spacing: 0.1em; height: 150px;}
     main { margin-left: 0; }
     nav { float: none; width: auto; text-align: center; padding: 0.5em; }
     nav li { display: inline; padding-top: 0.25em; padding-bottom: 0.25em; padding-left: 0.75em; padding-right: 0.75em; }
     footer { margin: 0; } 
-	body {background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #b0aebb); 
-	
-	
+    body {background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #b0aebb);} 
+        
+        p {font-family: 'Cormorant Upright';font-size: 5vw; font-weight: bold;}
 	
 }
+    
+    
 @media only screen and (max-width: 37.5em) 
 {
     main { padding-top: 0.1em; padding-bottom: 0.1em; padding-left: 1em; padding-right: 1em; font-size: 90%; }
-    h1 { font-size: 2em; }
+    h1 { font-size: 2em; height: 100px;}
     nav { padding: 0; text-decoration: none;}
     nav li { display: block; margin: 0; text-decoration: none; border-bottom: none;}
     nav a { display: block; text-decoration: none;}
     #mobile { display: inline; }
     #desktop { display: none; }
-	 body {background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #b0aebb); 
-		 
+    body {background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #b0aebb);} 
+		     label { float: none;
+            text-align: left; }
+    input[type="submit"] { margin-left: 0; }
          }
+    h4 { font-size: 8vw;}
+    .fortnite { font-size: 7vw; }
+   p {font-family: 'Cormorant Upright';font-size: 6vw; font-weight: bold;}
 	
     }
+    
+    @media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+	.column1 {
+    width: 100%;
+  }
+    
+    
+
+        
 .tabletini { color: blueviolet;}
 
 .column {
@@ -85,13 +106,7 @@ header, main, nav, footer, figure, figcaption, aside, section, article { display
     clear: both;
     display: table;
 }
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-	.column1 {
-    width: 100%;
-  }
+
 
 }
 nav {   background-color: #c9bbae; background-image: radial-gradient(#c9bbae, #000033); 
@@ -100,7 +115,7 @@ nav {   background-color: #c9bbae; background-image: radial-gradient(#c9bbae, #0
 	   font-weight: bold;
 	   text-align: right; 
 	   padding-right: 2em;
-	   position: fixed; border-top-left-radius: 90px; border-top-right-radius: 90px; border-bottom-left-radius: 90px; border-bottom-right-radius: 90px; border: 1px solid  #00005D; z-index: 5;
+	   position: fixed; border-top-left-radius: 90px; border-top-right-radius: 90px; border-bottom-left-radius: 90px; border-bottom-right-radius: 90px; border: 1px solid  #00005D; z-index: 5; 
 } 
 nav ul { list-style-type: none; 
         margin: 0;
@@ -118,7 +133,7 @@ nav ul ul { position: absolute;
 		background-color: #3181c0; background-image: radial-gradient(#3181c0, #75596f);
     	 padding: 0;
          display: none; 
-		 text-align: left; 
+	text-align: left; 
 }
 nav ul ul li { border: 1px solid  #00005D;
  		 display: block;
@@ -128,7 +143,7 @@ nav ul ul li { border: 1px solid  #00005D;
 }
 nav li:hover ul { display: block; }
 p1 {font-style: italic; font-family: 'Cormorant Upright';font-size: 5vw; font-weight: bold;}
-p { font-size: 115%;}
+
 img { border: 10px solid #36454f; }
 #gallery { display: none; }
 
@@ -141,19 +156,13 @@ tr:nth-of-type(even) {  background-color: #ccdaf7; background-color: #3181c0; ba
 label { float: left; display: block; text-align: right; width: 120px; }
 input { display: block; margin-bottom: 20px; }
 input[type="submit"] { margin-left: 130px; }
-@media only screen and (max-width: 37.5em) { 
-    label { float: none;
-            text-align: left; }
-    input[type="submit"] { margin-left: 0; }
-    
-}
-h4 {
-    font-family: 'Bungee Inline';font-size: 25px;
-}
-p {font-family: 'Cormorant Upright';font-size: 22px; font-weight: bold;}
+
+
+
 a:link { text-decoration: none;}
 
 #minigallery {display: inline; }
 	
 a:link { color: #8d59be;}
 a:hover { color: #6f4d91;}
+
